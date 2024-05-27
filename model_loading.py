@@ -12,17 +12,8 @@ def check_if_model_exists(repoName):
     if response != 200:
         return None
     else:
-        # modelLoaded = huggingFaceURL
         return huggingFaceURL
-    # try:
-    #     huggingFaceURL = "https://huggingface.co/" + repoName + "/raw/main/model_index.json"
-    #     response = requests.get(huggingFaceURL).status_code
-    #     modelLoaded = huggingFaceURL
-    # except requests.ConnectionError as exception:
-    #     modelLoaded = None
-
-    # return modelLoaded
-
+      
 def get_model_info(modelURL):
     modelType = None
     try:
