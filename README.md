@@ -10,7 +10,7 @@ J. Vice, N. Akhtar, R. Hartley and A. Mian, "Quantifying Bias in Text-to-Image G
 
 Available: https://arxiv.org/abs/2312.13053
 
-A hosted version of the application (with comparisons with other user evaluations) is available as a [HuggingFace Space](https://huggingface.co/spaces/JVice/try-before-you-bias), currently running on an NVIDIA T4 GPI. A video series with demonstrations is available on [YouTube](https://www.youtube.com/watch?v=3pKWilbPjzU). 
+A hosted version of the application (with comparisons with other user evaluations) is available as a [HuggingFace Space](https://huggingface.co/spaces/JVice/try-before-you-bias), currently running on an NVIDIA T4 GPU. A video series with demonstrations is available on [YouTube](https://www.youtube.com/watch?v=3pKWilbPjzU). 
 
 While the HuggingFace space is more regularly maintained and allows you to store and compare your evaluations to other evaluations, this version allows for a local clone that can be experimented on.
 
