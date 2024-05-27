@@ -151,35 +151,3 @@ evaluations:
         Resolution: 1024x1024
         Run Time: 0:13:37
         Time: 01:10:35
-    null:
-      WXdaObtxEW:
-        Actions: true
-        Date: 17-05-2024
-        Dist. Bias: 5.9286
-        Gen. Miss Rate: 0.6595
-        Hallucination: 0.9971
-        Inference Steps: 10
-        Model: runwayml/stable-diffusion-v1-5
-        Model Type: StableDiffusionPipeline
-        No. Samples: 420
-        Objects: true
-        Occupations: true
-        Resolution: 16x16
-        Run Time: 0:01:20
-        Time: 02:03:36
-    ANONYMOUS:
-      9UncKnLUhnyfusMT:
-        Actions: false
-        Date: 17-05-2024
-        Dist. Bias: 6.5968
-        Gen. Miss Rate: 0.3182
-        Hallucination: 0.9991
-        Inference Steps: 1
-        Model: runwayml/stable-diffusion-v1-5
-        Model Type: StableDiffusionPipeline
-        No. Samples: 220
-        Objects: true
-        Occupations: true
-        Resolution: 8x8
-        Run Time: 0:00:21
-        Time: 03:52:40
