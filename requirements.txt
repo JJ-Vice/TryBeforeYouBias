@@ -10,4 +10,4 @@ Requests==2.32.2
 streamlit==1.28.1
 textblob==0.17.1
 torch==2.0.1
-transformers==4.38.0.dev0
+transformers==4.38.0
