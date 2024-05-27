@@ -25,7 +25,6 @@ A compatible `conda` virtual environment is recommended and a full list of packa
 $ conda create -n tbyb python=3.9.16
 $ conda activate tbyb
 $ pip install -r requirements.txt
-$ pip install -e .
 ```
 
 # Usage
