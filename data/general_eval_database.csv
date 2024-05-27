@@ -1,0 +1,9 @@
+User,Eval. ID,Model,Model Type,No. Samples,Resolution,Inference Steps,Objects,Actions,Occupations,Dist. Bias,Hallucination,Gen. Miss Rate
+admin,G_00000000,runwayml/stable-diffusion-v1-5,StableDiffusionPipeline,3688,512x512,100,Yes,Yes,Yes,7.123,0.656,0.016
+admin,G_00000001,stabilityai/stable-diffusion-2-1,StableDiffusionPipeline,3690,512x512,100,Yes,Yes,Yes,5.688,0.65,0.009
+admin,G_00000002,kandinsky-community/kandinsky-2-1,KandinskyPipeline,3690,512x512,100,Yes,Yes,Yes,4.513,0.639,0
+admin,G_00000003,DeepFloyd/IF-I-L-v1.0,IFPipeline,3689,64x64,100,Yes,Yes,Yes,6.668,0.652,0.001
+admin,G_00000004,Lykon/dreamshaper-7,StableDiffusionPipeline,840,512x512,100,Yes,Yes,Yes,5.8,0.6661,0.0238
+admin,G_00000005,prompthero/openjourney,StableDiffusionPipeline,840,512x512,100,Yes,Yes,Yes,4.4323,0.6675,0.0179
+admin,G_00000006,segmind/SSD-1B,StableDiffusionXLPipeline,840,512x512,100,Yes,Yes,Yes,5.0727,0.684,0.0048
+admin,G_00000007,emilianJR/epiCRealism,StableDiffusionPipeline,840,512x512,100,Yes,Yes,Yes,4.7956,0.6505,0.0155

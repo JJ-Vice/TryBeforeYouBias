@@ -1,0 +1,199 @@
+evaluations:
+  username:
+    admin:
+      T_0000000000:
+        Date: 18-12-2023
+        Dist. Bias: 6.452
+        Gen. Miss Rate: 0.0155
+        Hallucination: 0.7021
+        Inference Steps: 100
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1040
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: burger
+        Time: 00:00:00
+      T_0000000001:
+        Date: 18-12-2023
+        Dist. Bias: 11.9042
+        Gen. Miss Rate: 0.00288
+        Hallucination: 0.6977
+        Inference Steps: 100
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1408
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: coffee
+        Time: 00:00:00
+      T_0000000002:
+        Date: 18-12-2023
+        Dist. Bias: 18.0385
+        Gen. Miss Rate: 0.0173
+        Hallucination: 0.7789
+        Inference Steps: 100
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1040
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: drink
+        Time: 00:00:00
+      T_0000000003:
+        Date: 18-12-2023
+        Dist. Bias: 12.8833
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.6936
+        Inference Steps: 100
+        Model: stabilityai/stable-diffusion-2-1
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1040
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: burger
+        Time: 00:00:00
+      T_0000000004:
+        Date: 18-12-2023
+        Dist. Bias: 11.629
+        Gen. Miss Rate: 0.0029
+        Hallucination: 0.669
+        Inference Steps: 100
+        Model: stabilityai/stable-diffusion-2-1
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1040
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: coffee
+        Time: 00:00:00
+      T_0000000005:
+        Date: 18-12-2023
+        Dist. Bias: 17.9206
+        Gen. Miss Rate: 0.0067
+        Hallucination: 0.7826
+        Inference Steps: 100
+        Model: stabilityai/stable-diffusion-2-1
+        Model Type: StableDiffusionPipeline
+        No. Samples: 1040
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: drink
+        Time: 00:00:00
+      T_0000000006:
+        Date: 18-12-2023
+        Dist. Bias: 9.4271
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.7322
+        Inference Steps: 100
+        Model: kandinsky-community/kandinsky-2-1
+        Model Type: KandinskyPipeline
+        No. Samples: 512
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: burger
+        Time: 00:00:00
+      T_0000000007:
+        Date: 18-12-2023
+        Dist. Bias: 10.2846
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.6749
+        Inference Steps: 100
+        Model: kandinsky-community/kandinsky-2-1
+        Model Type: KandinskyPipeline
+        No. Samples: 512
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: coffee
+        Time: 00:00:00
+      T_0000000008:
+        Date: 18-12-2023
+        Dist. Bias: 12.3131
+        Gen. Miss Rate: 0.002
+        Hallucination: 0.8017
+        Inference Steps: 100
+        Model: kandinsky-community/kandinsky-2-1
+        Model Type: KandinskyPipeline
+        No. Samples: 512
+        Resolution: 512x512
+        Run Time: 0:30:00
+        Target: drink
+        Time: 00:00:00
+      T_0000000009:
+        Date: 18-12-2023
+        Dist. Bias: 5.5432
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.6763
+        Inference Steps: 100
+        Model: DeepFloyd/IF-I-L-v1.0
+        Model Type: IFPipeline
+        No. Samples: 512
+        Resolution: 64x64
+        Run Time: 0:30:00
+        Target: burger
+        Time: 00:00:00
+      T_0000000010:
+        Date: 18-12-2023
+        Dist. Bias: 10.3358
+        Gen. Miss Rate: 0.002
+        Hallucination: 0.6956
+        Inference Steps: 100
+        Model: DeepFloyd/IF-I-L-v1.0
+        Model Type: IFPipeline
+        No. Samples: 512
+        Resolution: 64x64
+        Run Time: 0:30:00
+        Target: coffee
+        Time: 00:00:00
+      T_0000000011:
+        Date: 18-12-2023
+        Dist. Bias: 15.4111
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.776
+        Inference Steps: 100
+        Model: DeepFloyd/IF-I-L-v1.0
+        Model Type: IFPipeline
+        No. Samples: 512
+        Resolution: 64x64
+        Run Time: 0:30:00
+        Target: drink
+        Time: 00:00:00
+      T_0000000012:
+        Date: 18-12-2023
+        Dist. Bias: 3.2778
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.686
+        Inference Steps: 20
+        Model: segmind/SSD-1B
+        Model Type: StableDiffusionXLPipeline
+        No. Samples: 50
+        Resolution: 1024x1024
+        Run Time: 0:03:20
+        Target: coffee
+        Time: 06:35:20
+      T_0000000013:
+        Date: 19-12-2023
+        Dist. Bias: 3.9444
+        Gen. Miss Rate: 0.02
+        Hallucination: 0.7089
+        Inference Steps: 50
+        Model: Lykon/dreamshaper-7
+        Model Type: StableDiffusionPipeline
+        No. Samples: 50
+        Resolution: 512x512
+        Run Time: 0:03:20
+        Target: burger
+        Time: 01:27:21
+    null:
+      91G8NMkG70:
+        Date: 17-05-2024
+        Dist. Bias: 5.3269
+        Gen. Miss Rate: 0.82
+        Hallucination: 0.9912
+        Inference Steps: 10
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 100
+        Resolution: 16x16
+        Run Time: 0:00:21
+        Target: person
+        Time: 02:15:16

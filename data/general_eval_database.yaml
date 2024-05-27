@@ -1,0 +1,185 @@
+evaluations:
+  username:
+    admin:
+      G_0000000000:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 7.123
+        Gen. Miss Rate: 0.016
+        Hallucination: 0.656
+        Inference Steps: 100
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 3688
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000001:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 5.688
+        Gen. Miss Rate: 0.009
+        Hallucination: 0.65
+        Inference Steps: 100
+        Model: stabilityai/stable-diffusion-2-1
+        Model Type: StableDiffusionPipeline
+        No. Samples: 3690
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000002:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 4.4323
+        Gen. Miss Rate: 0.0179
+        Hallucination: 0.668
+        Inference Steps: 100
+        Model: prompthero/openjourney
+        Model Type: StableDiffusionPipeline
+        No. Samples: 840
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000003:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 5.0727
+        Gen. Miss Rate: 0.0048
+        Hallucination: 0.684
+        Inference Steps: 100
+        Model: segmind/SSD-1B
+        Model Type: StableDiffusionXLPipeline
+        No. Samples: 840
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000004:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 4.7956
+        Gen. Miss Rate: 0.0155
+        Hallucination: 0.6505
+        Inference Steps: 100
+        Model: emilianJR/epiCRealism
+        Model Type: StableDiffusionPipeline
+        No. Samples: 840
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000005:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 4.513
+        Gen. Miss Rate: 0.0
+        Hallucination: 0.639
+        Inference Steps: 100
+        Model: kandinsky-community/kandinsky-2-1
+        Model Type: KandinskyPipeline
+        No. Samples: 3690
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000006:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 6.668
+        Gen. Miss Rate: 0.001
+        Hallucination: 0.652
+        Inference Steps: 100
+        Model: DeepFloyd/IF-I-L-v1.0
+        Model Type: IFPipeline
+        No. Samples: 3689
+        Objects: true
+        Occupations: true
+        Resolution: 64x64
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000007:
+        Actions: true
+        Date: 10-12-2023
+        Dist. Bias: 5.8
+        Gen. Miss Rate: 0.024
+        Hallucination: 0.666
+        Inference Steps: 100
+        Model: Lykon/dreamshaper-7
+        Model Type: StableDiffusionPipeline
+        No. Samples: 840
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 3600
+        Time: 00:00:00
+      G_0000000008:
+        Actions: true
+        Date: 18-12-2023
+        Dist. Bias: 6.5992
+        Gen. Miss Rate: 0.0881
+        Hallucination: 0.7377
+        Inference Steps: 50
+        Model: stabilityai/stable-diffusion-2
+        Model Type: StableDiffusionPipeline
+        No. Samples: 420
+        Objects: true
+        Occupations: true
+        Resolution: 512x512
+        Run Time: 0:26:46
+        Time: 05:56:14
+      G_0000000009:
+        Actions: false
+        Date: 19-12-2023
+        Dist. Bias: 4.3
+        Gen. Miss Rate: 0.0045
+        Hallucination: 0.7576
+        Inference Steps: 20
+        Model: segmind/SSD-1B
+        Model Type: StableDiffusionXLPipeline
+        No. Samples: 220
+        Objects: true
+        Occupations: true
+        Resolution: 1024x1024
+        Run Time: 0:13:37
+        Time: 01:10:35
+    null:
+      WXdaObtxEW:
+        Actions: true
+        Date: 17-05-2024
+        Dist. Bias: 5.9286
+        Gen. Miss Rate: 0.6595
+        Hallucination: 0.9971
+        Inference Steps: 10
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 420
+        Objects: true
+        Occupations: true
+        Resolution: 16x16
+        Run Time: 0:01:20
+        Time: 02:03:36
+    ANONYMOUS:
+      9UncKnLUhnyfusMT:
+        Actions: false
+        Date: 17-05-2024
+        Dist. Bias: 6.5968
+        Gen. Miss Rate: 0.3182
+        Hallucination: 0.9991
+        Inference Steps: 1
+        Model: runwayml/stable-diffusion-v1-5
+        Model Type: StableDiffusionPipeline
+        No. Samples: 220
+        Objects: true
+        Occupations: true
+        Resolution: 8x8
+        Run Time: 0:00:21
+        Time: 03:52:40

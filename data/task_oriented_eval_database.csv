@@ -1,0 +1,13 @@
+User,Eval. ID,Model,Model Type,No. Samples,Resolution,Inference Steps,Target,Dist. Bias,Hallucination,Gen. Miss Rate
+admin,T_00000000,runwayml/stable-diffusion-v1-5,StableDiffusionPipeline,1040,512x512,100,burger,6.452,0.7021,0.0155
+admin,T_00000001,runwayml/stable-diffusion-v1-5,StableDiffusionPipeline,1408,512x512,100,coffee,11.9042,0.6977,0.00288
+admin,T_00000002,runwayml/stable-diffusion-v1-5,StableDiffusionPipeline,1040,512x512,100,drink,18.0385,0.7789,0.0173
+admin,T_00000003,stabilityai/stable-diffusion-2-1,StableDiffusionPipeline,1040,512x512,100,burger,12.8833,0.6936,0
+admin,T_00000004,stabilityai/stable-diffusion-2-1,StableDiffusionPipeline,1040,512x512,100,coffee,11.629,0.669,0.0029
+admin,T_00000005,stabilityai/stable-diffusion-2-1,StableDiffusionPipeline,1040,512x512,100,drink,17.9206,0.7826,0.0067
+admin,T_00000006,kandinsky-community/kandinsky-2-1,KandinskyPipeline,512,512x512,100,burger,9.4271,0.7322,0
+admin,T_00000007,kandinsky-community/kandinsky-2-1,KandinskyPipeline,512,512x512,100,coffee,10.2846,0.6749,0
+admin,T_00000008,kandinsky-community/kandinsky-2-1,KandinskyPipeline,512,512x512,100,drink,12.3131,0.8017,0.002
+admin,T_00000009,DeepFloyd/IF-I-L-v1.0,IFPipeline,512,64x64,100,burger,5.5432,0.6763,0
+admin,T_00000010,DeepFloyd/IF-I-L-v1.0,IFPipeline,512,64x64,100,coffee,10.3358,0.6956,0.002
+admin,T_00000011,DeepFloyd/IF-I-L-v1.0,IFPipeline,512,64x64,100,drink,15.4111,0.776,0
