@@ -183,17 +183,3 @@ evaluations:
         Run Time: 0:03:20
         Target: burger
         Time: 01:27:21
-    null:
-      91G8NMkG70:
-        Date: 17-05-2024
-        Dist. Bias: 5.3269
-        Gen. Miss Rate: 0.82
-        Hallucination: 0.9912
-        Inference Steps: 10
-        Model: runwayml/stable-diffusion-v1-5
-        Model Type: StableDiffusionPipeline
-        No. Samples: 100
-        Resolution: 16x16
-        Run Time: 0:00:21
-        Target: person
-        Time: 02:15:16
