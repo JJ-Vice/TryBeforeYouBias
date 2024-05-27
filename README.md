@@ -1,5 +1,5 @@
 # Quantifying Bias in Text-to-Image Generative Models
-_A downloadable version of the "Try Before you Bias (TBYB)" application_
+_A more 'open-source' version of the "Try Before you Bias (TBYB)" application_
 
 ![quantifying_bias](https://github.com/JJ-Vice/TBYB/blob/main/assets/QuantifyingBias.png)
 
