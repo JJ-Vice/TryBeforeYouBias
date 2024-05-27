@@ -18,7 +18,6 @@ def completed_setup(tabs, modelID):
     with tabs[0]:
         st.write("\U0001F917 ", modelID, " has been loaded!")
         st.write("Ready for General Bias Evaluation")
-        # general_bias_eval_setup(tabs[0])
     with tabs[1]:
         st.write("\U0001F917 ", modelID, " has been loaded!")
         st.write("Ready for Task-Oriented Bias Evaluation")
@@ -26,8 +25,6 @@ def completed_setup(tabs, modelID):
         if not all([user_evaluation_variables.OBJECT_IMAGES_IN_UI, user_evaluation_variables.OCCUPATION_IMAGES_IN_UI, user_evaluation_variables.TASK_IMAGES_IN_UI]):
             st.write("\U0001F917 ", modelID, " has been loaded!")
             st.write("Waiting for Images to be generated.")
-        # if any([user_evaluation_variables.OBJECT_IMAGES_IN_UI, user_evaluation_variables.OCCUPATION_IMAGES_IN_UI,
-        #             user_evaluation_variables.TASK_IMAGES_IN_UI]):
         update_images_tab(tabs[3])
     with tabs[0]:
         general_bias_eval_setup(tabs[0], modelID, tabs[3])
