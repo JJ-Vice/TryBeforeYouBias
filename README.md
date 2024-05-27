@@ -10,7 +10,9 @@ J. Vice, N. Akhtar, R. Hartley and A. Mian, "Quantifying Bias in Text-to-Image G
 
 Available: https://arxiv.org/abs/2312.13053
 
-A hosted version of the application (with comparisons with other user evaluations) is available as a [HuggingFace Space](https://huggingface.co/spaces/JVice/try-before-you-bias), running on an NVIDIA T4 Small GPU. A video series with demonstrations is available on [YouTube](https://www.youtube.com/watch?v=3pKWilbPjzU).
+A hosted version of the application (with comparisons with other user evaluations) is available as a [HuggingFace Space](https://huggingface.co/spaces/JVice/try-before-you-bias), currently running on an NVIDIA T4 GPI. A video series with demonstrations is available on [YouTube](https://www.youtube.com/watch?v=3pKWilbPjzU). 
+
+While the HuggingFace space is more regularly maintained and allows you to store and compare your evaluations to other evaluations, this version allows for a local clone that can be experimented on.
 
 # Installation
 The TBYB application was designed using the [Streamlit](https://streamlit.io/) Python UI framework. The application was tested locally using a single NVIDIA GeForce RTX 4090. However, when running locally, the computational requirements are dependent on the model imported for analysis. The larger the model, the more computational resources required.
@@ -36,6 +38,19 @@ This will assign a local and network URL's to view the application e.g.:
 Local URL: http://localhost:8501
 Network URL: http://00.111.222.333:8501
 ```
+## Citation
+If our code, metrics or paper are used to further your research, please cite our paper:
+```BibTeX
+@misc{Vice2023Quantifying,
+      title={Quantifying Bias in Text-to-Image Generative Models}, 
+      author={Jordan Vice and Naveed Akhtar and Richard Hartley and Ajmal Mian},
+      year={2023},
+      eprint={2312.13053},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 # Constraints
 While we have attempted to design a comprehensive, automated bias evaluation tool. We must acknowledge that in its infancy, TBYB has some constraints:
 - We have not checked the validity of *every* single T2I model and model type on HuggingFace so we cannot promise that all T2I models will work - if you run into any issues that you think should be possible, feel free to reach out!
