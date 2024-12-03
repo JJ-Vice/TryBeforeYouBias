@@ -4,7 +4,7 @@ import urllib.request
 import streamlit as st
 
 validT2IModelTypes = ["KandinskyPipeline", "StableDiffusionPipeline", "DiffusionPipeline", "StableDiffusionXLPipeline",
-                      "LatentConsistencyModelPipeline"]
+                      "LatentConsistencyModelPipeline","StableDiffusion3Pipeline", "FluxPipeline"]
 def check_if_model_exists(repoName):
     modelLoaded = None
     huggingFaceURL = "https://huggingface.co/" + repoName + "/raw/main/model_index.json"
@@ -35,6 +35,12 @@ def import_model(modelID, modelType):
         elif modelType == 'LatentConsistencyModelPipeline':
             from diffusers import DiffusionPipeline
             T2IModel = DiffusionPipeline.from_pretrained(modelID, torch_dtype=torch.float16)
+        elif modelType == 'StableDiffusion3Pipeline':
+            from diffusers import StableDiffusion3Pipeline
+            T2IModel = StableDiffusion3Pipeline.from_pretrained(modelID, torch_dtype=torch.bfloat16)
+        elif modelType == 'FluxPipeline':
+            from diffusers import FluxPipeline
+            T2IModel = FluxPipeline.from_pretrained(modelID, torch_dtype=torch.bfloat16)
         else:
             from diffusers import AutoPipelineForText2Image
             T2IModel = AutoPipelineForText2Image.from_pretrained(modelID, torch_dtype=torch.float16)
